@@ -1,0 +1,6 @@
+username - prabha_sharma
+password - 1XblPEyAT4BweZfh
+database - codepad_db
+
+link - mongodb+srv://prabha_sharma:<password>@codepad.sdp4hsh.mongodb.net/?retryWrites=true&w=majority
+connection - mongodb+srv://prabha_sharma:1XblPEyAT4BweZfh@codepad.sdp4hsh.mongodb.net/?retryWrites=true&w=majority
