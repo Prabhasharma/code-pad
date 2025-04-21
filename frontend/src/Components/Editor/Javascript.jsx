@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+React, { useEffect, useState } from 'react';
 import LangList from '../Editor/LangList';
 import copy_icon from '../../assets/copy_icon.gif';
 import download_icon from '../../assets/download_logo.png';
@@ -44,7 +44,7 @@ function Javascript() {
       }
       catch(err){
         toast.error("Please Enter Valid Code")
-        console.log(`${err}`);
+        console.log(${err});
       }
 };
 
@@ -111,7 +111,7 @@ useEffect(()=>{
 
     const link = document.createElement("a");
     link.href = window.URL.createObjectURL(blob);
-    const FileCodeName = `CodePad-(${DayName})`;
+    const FileCodeName = CodePad-(${DayName});
 
     link.download = FileCodeName;
     link.click();

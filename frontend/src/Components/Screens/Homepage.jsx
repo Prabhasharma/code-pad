@@ -6,9 +6,7 @@ import ImageCod from '../../assets/JavaScript frameworks-rafiki.svg'
 import HtmlCod from '../../assets/Website Creator-amico.svg'
 import Pycod from '../../assets/Man reading-pana.svg'
 import SpeechCod from '../../assets/Speech to text-bro.svg'
-import CodJava from '../../assets/Coding-bro.svg'
 import ImagCod from '../../assets/Writing on the wall-rafiki.svg'
-// import MoreCod from '../../assets/Sponsor-rafiki.svg';
 import MoreCod from '../../assets/paralympic winners podium-pana.svg';
 import Feedback from '../HomepageScreen/Feedback';
 import Footer from '../HomepageScreen/Footer';
@@ -31,8 +29,6 @@ function Homepage() {
           info={<>All The <mark>Logic</mark> That you need to Learn and Practice <mark> JavaScript </mark> will be Accomplished by this <mark> Js Text Editor </mark> .</>} 
           path='/editor/javaScript' 
           image={ImageCod}
-          // poss={{'flexDirection':'row'}}
-          
         />
         <CodingPage
           title="Python Compiler"
@@ -40,16 +36,7 @@ function Homepage() {
           path="/editor/python"
           info={<>Leash out All your <mark> Logic and Understanding</mark> with the Easiest Programming Language <mark>Python</mark> in this Super Easy Web IDE</>}
           image={Pycod}
-          // poss={{'flexDirection':'row-reverse'}}
           uniId={"uni"}
-        />
-        <CodingPage
-          title="Dart Compiler"
-          path='/editor/java'
-          con="Run Dart"
-          info={<><mark>Dart</mark> is a Programming Language <mark>Developed by Google</mark> and it is use with <mark>Flutter </mark>to Create Mobile and Web Application .Embrace your <mark>Knowledge</mark> with <mark>Dart Code Editor</mark></>}
-          image={CodJava}
-          // poss={{'flexDirection':'row'}}
         />
         <CodingPage
           title="Real-Time Website Editor"
@@ -60,7 +47,6 @@ function Homepage() {
             <mark>Try</mark> our <mark>Real Time Browser</mark> that Automatically updates the Page as per your Code/Program.
           </>}
           image={HtmlCod}
-          // poss={{'flexDirection':'row-reverse'}}
           uniId={"uni"}
         />
         <CodingPage
@@ -71,7 +57,6 @@ function Homepage() {
           info={<>
             Turn Your <mark>Image into Reality</mark> with this amazing Feature of <mark>Image to Code</mark> Tool. 
           </>}
-          // poss={{'flexDirection':'row'}}
         />
         <CodingPage
           title="Voice To Code"
@@ -81,16 +66,14 @@ function Homepage() {
             <mark>"Words Speak more than Actions"</mark> let this quote get Install into your life by our latest tool <mark>Voice to Text</mark> feature .
           </>}
           con="Get Started"
-          // poss={{'flexDirection':'row-reverse'}}
           uniId={"uni"}
         />
        
         <Feedback/>
         <Footer/>
-        {/* <a href="http://" target="_blank" rel="noopener noreferrer"></a> */}
     </div>
     </>
   )
 }
 
-export default Homepage
+export default Homepage;
